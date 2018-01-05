@@ -90,6 +90,7 @@ public class WordCount {
 	 * Clean dirty input string
 	 * @param dirtyInputString
 	 * @return string array of words
+	 * 
 	 */
 	private static String[] cleanInputString(String dirtyInputString) {
 		String[] dirtyInputStringSpillted = dirtyInputString.toLowerCase().split("[.|,|(|)|!]");

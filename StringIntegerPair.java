@@ -1,6 +1,7 @@
 package walmart.assessment.solution.two;
 /**
  * POJO class to hold value and count of the word frequency.
+ * 
  * */  
 public class StringIntegerPair {
 	String value;
